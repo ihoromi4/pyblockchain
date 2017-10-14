@@ -1,5 +1,6 @@
 __pycache__/
 venv/
+blockchain_knows.egg-info/
 
 *.py[cod]
 blockchain.json

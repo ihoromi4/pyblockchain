@@ -28,6 +28,9 @@ class WebAPI:
             config.add_route('add_item', '/api/v1/add')
             config.add_view(self.add_item, route_name='add_item')
 
+            config.add_route('validate_blockchain', '/api/v1/valid')
+            config.add_view(self.validate_blockchain, route_name='validate_blockchain')
+
             self.app = config.make_wsgi_app()
 
     def test_server(self, ip, port):
@@ -59,4 +62,12 @@ class WebAPI:
         self.blockchain.add_item(item)
         msg = 'Success!'
         return Response(msg)
+
+    def validate_blockchain(self, request):
+        if self.blockchain.is_valid:
+            msg = 'Blockchain agreed!'
+        else:
+            msg = 'Blockchain damaged!'
+        return Response(msg)
+        
 
