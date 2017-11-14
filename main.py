@@ -4,7 +4,7 @@ import webapi
 
 class App:
     def __init__(self):
-        filepath = 'blockchain.json'
+        filepath = 'blockchain_db/blockchain.json'
         self.blockchain = blockchain.Blockchain(filepath)
         self.webapi = webapi.WebAPI(self.blockchain)
 
