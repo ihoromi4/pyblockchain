@@ -1,10 +1,8 @@
 # Python3 Blockchain Implementation 
 
-![alt text](https://d30y9cdsu7xlg0.cloudfront.net/png/27194-200.png "Logo Title Text 1")
+![alt text](https://d30y9cdsu7xlg0.cloudfront.net/png/27194-200.png "")
 
 Implementation of [Blockchain](https://en.wikipedia.org/wiki/Blockchain) technology on [Python 3](https://www.python.org)
-
-
 
 ## Requirements
 
@@ -14,7 +12,7 @@ Implementation of [Blockchain](https://en.wikipedia.org/wiki/Blockchain) technol
 
 * **blockchain**
 * **webapi** ([pyramid](https://trypyramid.com))
-* **rpcapi** (in development
+* **rpcapi** (in development)
 
 ## Start blockchain
 
@@ -24,7 +22,7 @@ python3 main.py
 
 ## Testing
 
-Unit test can be run by:
+Unit test can be run:
 
 ```bash
 python3 tests.py
