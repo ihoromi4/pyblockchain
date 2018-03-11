@@ -1,6 +1,9 @@
-__pycache__/
-venv/
-blockchain_knows.egg-info/
-blockchain_db/
-
+__pycache__
+venv
+.idea
+blockchain_knows.egg-info
+blockchain_db
+blockchain.egg-info
+build
+dist
 *.py[cod]

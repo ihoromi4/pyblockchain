@@ -1,12 +1,13 @@
 from setuptools import setup, find_packages
 
 import tests
+import blockchain
 
 
 setup(
-    name='blockchain-knows',
-    version='0.1.0',
-    description='News system on blockchain',
+    name='blockchain',
+    version=blockchain.__version__,
+    description='Pure python blockchain technology implementation',
     author='Ihor Omelchenko',
     author_email='counter3d@gmail.com',
     license='MIT',
